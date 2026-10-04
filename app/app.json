@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "Bloom",
+    "slug": "bloom",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bloom.demo"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#D81B60",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.bloom.demo"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-font",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Bloom używa kamery do analizy postawy podczas ćwiczeń. Obraz nie opuszcza telefonu."
+        }
+      ]
+    ],
+    "splash": {
+      "backgroundColor": "#FFF6F8",
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain"
+    }
+  }
+}
