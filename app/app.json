@@ -30,12 +30,15 @@
         {
           "cameraPermission": "Bloom używa kamery do analizy postawy podczas ćwiczeń. Obraz nie opuszcza telefonu."
         }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#FFF6F8",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 120
+        }
       ]
-    ],
-    "splash": {
-      "backgroundColor": "#FFF6F8",
-      "image": "./assets/splash-icon.png",
-      "resizeMode": "contain"
-    }
+    ]
   }
 }
